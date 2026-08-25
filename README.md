@@ -25,9 +25,9 @@
 
 ## 📥 Download / Unduh
 
-> **Latest Release:** [v2.4.0](https://github.com/mantraabi/blitzmint-releases/releases/latest)
+> **Latest Release:** [v2.4.1](https://github.com/mantraabi/blitzmint-releases/releases/latest)
 > 
-> Download `BlitzMint-2.4.0-portable.exe` — portable, no installation required.
+> Download `BlitzMint-2.4.1-portable.exe` — portable, no installation required.
 > No admin rights needed. Just download and run.
 
 **System Requirements:**
@@ -40,7 +40,7 @@
 ## 🚀 Quick Start
 
 1. [Download the latest .exe](https://github.com/mantraabi/blitzmint-releases/releases/latest)
-2. Run `BlitzMint-2.4.0-portable.exe`
+2. Run `BlitzMint-2.4.1-portable.exe`
 3. Import your wallet via private key or seed phrase
 4. Start snipping free mint drops or use Contract Mint to call any mint function
 
@@ -49,19 +49,12 @@
 ## 🔗 Links / Tautan
 
 - **Documentation / Panduan:** [blitzmint-docs.vercel.app](https://blitzmint-docs.vercel.app)
-- **License Server:** [blitzmint-license.vercel.app](https://blitzmint-license.vercel.app)
 - **Changelog / Riwayat Versi:** [CHANGELOG.md](./CHANGELOG.md)
-
----
-
-## 🏷️ Keywords / Kata Kunci
-
-`bot nft` `bot nft gratis` `nft mint bot` `free mint bot` `opensea bot` `sniper nft` `bot mint nft` `nft free mint` `evm bot` `nft auto mint` `nft minting tool` `automatic mint bot` `nft sniper` `bot nft indonesia` `nft gratis` `free mint otomatis` `bot minting` `nft mint bot free` `blitzmint` `ink nft` `base nft` `bot klaim nft` `nft claim bot`
 
 ---
 
 ## 📄 License
 
-BlitzMint is a commercial desktop application. See [blitzmint-license.vercel.app](https://blitzmint-license.vercel.app) for licensing details.
+BlitzMint is a commercial desktop application with a trial mode (10 free mints) and paid license keys. Contact the developer for licensing details.
 
 © 2026 Abi Creative — [abicreative.web.id](https://abicreative.web.id)
