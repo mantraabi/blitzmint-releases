@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.4.1 — 2026-08-25
+
+- **New:** Desktop update check via GitHub Releases (banner + Settings section)
+- **Fix:** Update check now points to the public blitzmint-releases repo
+- **Fix:** Use reliable /releases?per_page=1 endpoint
+- **Fix:** English-only UI strings in update section
+
 ## 2.4.0 — 2026-08-24
 
 - **New:** License client integration (fingerprint, trial, gating, Settings tab)
