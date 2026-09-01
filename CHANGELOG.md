@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.5.0 — 2026-09-01
+
+- **New:** On-chain interval free-slot mode — `claimFree()` with no backend ticket (Cookiez style)
+- **New:** Race mode toggle — broadcast immediately without simulation for pure-speed FCFS races
+- **New:** Epoch-anchored slot timing — sync countdown to contract `mintOpenedAt` (Cookiez/Duh Goods)
+- **Fix:** Simulate claimFree / freeMint before broadcast — never burn gas on a guaranteed-revert tx
+- **Fix:** Retry simulation at slot boundary — catch the exact instant the slot opens
+- **Fix:** Ticket freeMint simulation (struct EIP-712 + legacy)
+- **Fix:** Cost Preview shows correct per-wallet USD instead of grand total
+
 ## 2.4.1 — 2026-08-25
 
 - **New:** Desktop update check via GitHub Releases (banner + Settings section)

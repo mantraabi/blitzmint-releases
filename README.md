@@ -25,9 +25,9 @@
 
 ## 📥 Download / Unduh
 
-> **Latest Release:** [v2.4.1](https://github.com/mantraabi/blitzmint-releases/releases/latest)
+> **Latest Release:** [v2.5.0](https://github.com/mantraabi/blitzmint-releases/releases/latest)
 > 
-> Download `BlitzMint-2.4.1-portable.exe` — portable, no installation required.
+> Download `BlitzMint-2.5.0-portable.exe` — portable, no installation required.
 > No admin rights needed. Just download and run.
 
 **System Requirements:**
@@ -40,7 +40,7 @@
 ## 🚀 Quick Start
 
 1. [Download the latest .exe](https://github.com/mantraabi/blitzmint-releases/releases/latest)
-2. Run `BlitzMint-2.4.1-portable.exe`
+2. Run `BlitzMint-2.5.0-portable.exe`
 3. Import your wallet via private key or seed phrase
 4. Start snipping free mint drops or use Contract Mint to call any mint function
 
