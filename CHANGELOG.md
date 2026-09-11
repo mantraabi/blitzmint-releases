@@ -1,32 +1,41 @@
 # Changelog
 
+## 2.7.3 — 2026-09-11
+
+- **New:** Snipe hot-poll FCFS mode — polls OpenSea `swap()` from T−10s (400ms cadence, rate-limit safe), captures mint calldata the instant the stage flips, fires with zero relay round-trip. Built for Robinhood's ~100ms blocks after the RPG Genesis Chest postmortem
+- **New:** Early-fire — when every selected wallet's calldata is captured, the phase fires immediately instead of waiting for the target time
+- **New:** Hot-poll toggle in snipe controls (default ON, OpenSea drops only)
+- **Fix:** Robinhood RPC fallback — added `rpc.ordofi.network` (blockscout eth-rpc now 403); effective order: custom → Alchemy → publicnode → ordofi
+
+## 2.7.2 — 2026-09-09
+
+- **Fix:** Contract-mint price detection for custom views (`publicPrice()`, `mintFee()`, `mintCost()`, `salePrice()`) — value auto-fills on paid mints
+- **Fix:** False "reverts" badge on paid contract mint (payable re-probe with the detected price)
+
+## 2.7.1 — 2026-09-09
+
+- **New:** Arc (5042002) registered as inactive chain
+- **Fix:** Wallet import success toast + auto-close modal
+
+## 2.7.0 — 2026-09-09
+
+- **Removed:** Free Slot Mint (engine, page, relay) and NFT Portfolio (NFTs page, PnL cards) — app focuses on Mint OpenSea · Mint Contract · Wallets
+- Activity-log `nft_received` entries kept; `extractMintedNfts` retained for receipt parsing
+
+## 2.6.0 — 2026-09-09
+
+- **Removed:** License system (fingerprint, trial, gating) — the app is now completely free
+- **New:** Settings → Support (donate) tab
+- **New:** Manual signature mint for unverified-ABI contracts (eth_call probe + executor)
+
 ## 2.5.0 — 2026-09-01
 
-- **New:** On-chain interval free-slot mode — `claimFree()` with no backend ticket (Cookiez style)
-- **New:** Race mode toggle — broadcast immediately without simulation for pure-speed FCFS races
-- **New:** Epoch-anchored slot timing — sync countdown to contract `mintOpenedAt` (Cookiez/Duh Goods)
-- **Fix:** Simulate claimFree / freeMint before broadcast — never burn gas on a guaranteed-revert tx
-- **Fix:** Retry simulation at slot boundary — catch the exact instant the slot opens
-- **Fix:** Ticket freeMint simulation (struct EIP-712 + legacy)
-- **Fix:** Cost Preview shows correct per-wallet USD instead of grand total
+- On-chain interval free-slot mode `claimFree()` (removed again in 2.7.0)
 
 ## 2.4.1 — 2026-08-25
 
-- **New:** Desktop update check via GitHub Releases (banner + Settings section)
-- **Fix:** Update check now points to the public blitzmint-releases repo
-- **Fix:** Use reliable /releases?per_page=1 endpoint
-- **Fix:** English-only UI strings in update section
+- Desktop update check via GitHub Releases (banner + Settings section)
 
 ## 2.4.0 — 2026-08-24
 
-- **New:** License client integration (fingerprint, trial, gating, Settings tab)
-- **New:** Ink network support (full OpenSea, gas tracker)
-- **New:** Electron desktop app (portable .exe, fixed port 3420)
-- **New:** Hardware fingerprint via node-machine-id (permanent trial)
-- **New:** Portfolio sold detection via on-chain ownerOf
-- **New:** CoinGecko price relay (wallet, calculator, cost preview)
-- **New:** Snipe pre-auth for faster fire (hot refresh)
-- **Fix:** Calculator gas format for cheap chains (Ink ~0.001 gwei)
-- **Fix:** Free-slot double-start guard
-- **Fix:** Mint-engine OpenSea relay path for unindexed ABI
-- **Fix:** Trial mint reporting from SnipeEngine
+- License client, Ink network support, Electron portable .exe, CoinGecko price relay, snipe pre-auth at T−2s
