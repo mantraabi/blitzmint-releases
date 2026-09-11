@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.7.4 — 2026-09-11
+
+- **New:** Community & Feedback card on Settings → Support — official Discord invite (https://discord.gg/WU6uXWjaHM), one-click open + copy. Suggestions and bug reports go straight to the developer
+
 ## 2.7.3 — 2026-09-11
 
 - **New:** Snipe hot-poll FCFS mode — polls OpenSea `swap()` from T−10s (400ms cadence, rate-limit safe), captures mint calldata the instant the stage flips, fires with zero relay round-trip. Built for Robinhood's ~100ms blocks after the RPG Genesis Chest postmortem

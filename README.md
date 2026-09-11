@@ -32,9 +32,9 @@ Free Slot Mint dan Portfolio NFT dihapus supaya app fokus ke yang benar-benar di
 
 ## 📥 Download / Unduh
 
-> **Latest Release:** [v2.7.3](https://github.com/mantraabi/blitzmint-releases/releases/latest)
+> **Latest Release:** [v2.7.4](https://github.com/mantraabi/blitzmint-releases/releases/latest)
 >
-> Download `BlitzMint-2.7.3-portable.exe` — portable, no installation required.
+> Download `BlitzMint-2.7.4-portable.exe` — portable, no installation required.
 > No admin rights needed. Just download and run.
 
 **System Requirements:**
@@ -47,7 +47,7 @@ Free Slot Mint dan Portfolio NFT dihapus supaya app fokus ke yang benar-benar di
 ## 🚀 Quick Start
 
 1. [Download the latest .exe](https://github.com/mantraabi/blitzmint-releases/releases/latest)
-2. Run `BlitzMint-2.7.3-portable.exe`
+2. Run `BlitzMint-2.7.4-portable.exe`
 3. Import your wallet via private key or seed phrase (stored encrypted, locally)
 4. **Mint OpenSea**: paste a drop contract address → check stages → execute or snipe
 5. **Mint Contract**: paste any contract → detected mint function → execute or snipe
