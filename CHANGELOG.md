@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.7.5 — 2026-09-11
+
+- **Fix:** Open Discord button did nothing (2.7.4) — desktop shell blocked the popup. Now opens discord.gg/WU6uXWjaHM in the OS default browser (allowlist: github.com, discord.gg, discord.com); anchor-click fallback for popup blockers
+
 ## 2.7.4 — 2026-09-11
 
 - **New:** Community & Feedback card on Settings → Support — official Discord invite (https://discord.gg/WU6uXWjaHM), one-click open + copy. Suggestions and bug reports go straight to the developer
